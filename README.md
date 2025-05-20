@@ -1,15 +1,17 @@
-# rojo-ts
-#### Rojo 7 + roblox-ts
+# rojo-ts (rojo + roblox-ts)
 
-```console
-# Requirements
+### Requirements
 - Node
 - Aftman
 
-# Installation
-aftman install
+### Installation
+- `aftman install`
+- `npm i` or `npm install`
+- `rojo serve`
 
-# Development:
-    # 
+### Development:
+- `rbxtsc -w`
+- `rojo serve`
 
-```
+### Build:
+- `rojo build -o "game.rbxlx"`
