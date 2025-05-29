@@ -11,8 +11,7 @@ SERVICE MANAGEMENT:
         2. Export a default class that extends ServiceModule: `export default class PlayerDataService extends ServiceModule {};`
         3. In ServiceLoader/Services/index.ts:
             a. Add the type to `type ModuleInfo` as such: `PlayerDataService: PlayerDataService;`
-            b. In the function `LoadServices()`, instantiate the service:
-            `services["PlayerDataService"] = new PlayerDataService() as PlayerDataService;`
+            b. Add the instantiation to the `const services` as such: `PlayerDataService: new PlayerDataService() as PlayerDataService,`
 
 ServiceModule:
     - This is a base class for all services.
